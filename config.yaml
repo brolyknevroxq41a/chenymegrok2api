@@ -47,7 +47,7 @@ database:
     path: "./data/backend.db"
   postgres:
     # [必须修改：仅 driver=postgres] 填写真实 DSN，并按需启用 sslmode。
-    dsn: "postgres://dbdb_user:VzaXX8_8ZYoAjB4Q0U4-ffmj@dpg-nk978ho5vkwrolnwh4wt-rw:5432/dbdb"
+    dsn: "postgres://dbdb_user:VzaXX8_8ZYoAjB4Q0U4-ffmj@dpg-nk978ho5vkwrolnwh4wt.eu-central-postgres.runsite.app/dbdb"
     # [按需修改] 根据数据库连接容量调整。
     maxOpenConns: 50
     maxIdleConns: 10
