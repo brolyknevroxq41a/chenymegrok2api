@@ -13,4 +13,4 @@ COPY config.yaml /run/grok2api/config.yaml
 RUN chown -R 1000:1000 /app /run/grok2api && chmod -R 777 /app /run/grok2api
 
 # 5. 切换回非 root 用户 (符合 Render 的安全策略)
-USER 1000
+USER 10014
